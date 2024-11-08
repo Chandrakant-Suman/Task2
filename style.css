@@ -46,7 +46,7 @@
     justify-content: center;
     gap: 20px;
     padding: 40px 20px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap; /* Makes it responsive */
   }
   
   .card {
@@ -84,28 +84,28 @@
   
   /* Character-Specific Background Colors */
   .captain-america {
-    height: 100px;
-    width: 80px;
+    height: 300px;
+    width: 20%;
     background-image: url("captain_america.jpeg");
-    /* background: linear-gradient(135deg, #6366F1, #A5B4FC); */
   }
   
   .iron-man {
-    height: 100px;
-    width: 80px;
+    height: 300px;
+    width: 20%;
     background-image: url("iron_man.jpeg");
   }
   
   .black-widow {
-    height: 100px;
-    width: 80px;
+    height: 300px;
+    width: 20%;
     background-image: url("black_widow.jpeg");
   }
   
   .spider-man {
-    height: 100px;
-    width: 80px;
+    height: 300px;
+    width: 20%;
     background-image: url("spider_man.jpeg");
+    background-size: cover;
   }
   
   footer {
