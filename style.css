@@ -87,6 +87,7 @@
     height: 300px;
     width: 20%;
     background-image: url("captain_america.jpeg");
+    background-size: cover;
   }
   
   .iron-man {
@@ -123,4 +124,4 @@
     font-size: 14px;
     font-weight: bold;
   }
-  
+
