@@ -93,13 +93,16 @@
   .iron-man {
     height: 300px;
     width: 20%;
-    background-image: url("iron_man.jpeg");
+    background-image: url("iron_man2.jpeg");
+    background-size: cover;
+    /* background-size:0%; */
   }
   
   .black-widow {
     height: 300px;
     width: 20%;
     background-image: url("black_widow.jpeg");
+    background-size: cover;
   }
   
   .spider-man {
@@ -124,4 +127,4 @@
     font-size: 14px;
     font-weight: bold;
   }
-
+  
